@@ -3,6 +3,6 @@ function checkSpam(str) {
   return string.indexOf('1xbet') != -1 || string.indexOf('xxx') != -1
 }
 
-console.log(checkSpam('1XbeT now'));
-console.log(checkSpam('free xxxxx'));
-console.log(checkSpam('innocent rabbit'));
+// console.log(checkSpam('1XbeT now'));
+// console.log(checkSpam('free xxxxx'));
+// console.log(checkSpam('innocent rabbit'));

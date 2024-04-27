@@ -12,4 +12,4 @@ function ucFirst(str) {
   }
 }
 
-console.log(ucFirst('gsfg'));
+// console.log(ucFirst('gsfg'));

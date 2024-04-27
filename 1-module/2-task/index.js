@@ -23,7 +23,7 @@ function sayHello() {
   }
 }
 
-console.log(isValid('Ilia'))
-console.log(isValid('Ilia Burlak'))
-console.log(isValid('Ili'))
-console.log(isValid())
+// console.log(isValid('Ilia'))
+// console.log(isValid('Ilia Burlak'))
+// console.log(isValid('Ili'))
+// console.log(isValid())
