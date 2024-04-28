@@ -12,6 +12,6 @@ function truncate(str, maxlength) {
   }
 }
 
-console.log(truncate('Вот, что мне хотелось бы сказать на эту тему:', 20));
-console.log(truncate('Вот, что мне хотелось бы сказать на эту тему:', 10));
-console.log(truncate('Всем привет!', 20));
+// console.log(truncate('Вот, что мне хотелось бы сказать на эту тему:', 20));
+// console.log(truncate('Вот, что мне хотелось бы сказать на эту тему:', 10));
+// console.log(truncate('Всем привет!', 20));

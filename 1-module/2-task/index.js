@@ -10,11 +10,7 @@ function print(text) {
  * чтобы функция sayHello работала корректно
  */
 function isValid(name) {
-  if (name != undefined && name.includes(" ") == false && name.length >= 4) {
-    return true;
-  } else {
-    return false;
-  }
+  return name != undefined && name.includes(" ") == false && name.length >= 4
 }
 
 function sayHello() {
@@ -27,7 +23,7 @@ function sayHello() {
   }
 }
 
-console.log(isValid('Ilia'))
-console.log(isValid('Ilia Burlak'))
-console.log(isValid('Ili'))
-console.log(isValid())
+// console.log(isValid('Ilia'))
+// console.log(isValid('Ilia Burlak'))
+// console.log(isValid('Ili'))
+// console.log(isValid())
