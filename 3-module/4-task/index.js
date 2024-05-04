@@ -25,5 +25,5 @@
 function showSalary(users, age) {
   let usersFilter = users.filter(function (user) { return user.age <= age.toString() });
   return usersFilter.map(function (user) { return `${user.name}, ${user.balance}` }).join('\n')
-  // return users.filter(function (user) { return user.age <= age.toString() }).map(function (user) { return `${user.name}, ${user.balance}` }).join('\n') // Так тоже работает!
+  // return users.filter(function (user) { return user.age <= age.toString() }).map(function (user) { return `${user.name}, ${user.balance}` }).join('\n') // Так тоже
 }
