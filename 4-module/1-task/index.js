@@ -1,6 +1,5 @@
 function makeFriendsList(friends) {
   let ul = document.createElement('UL');
-  document.body.append(ul);
   // Вариант без forEach
 
   // let mapFriends = friends.map((friend) => `${friend.firstName} ${friend.lastName}`);
