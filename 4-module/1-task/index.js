@@ -1,14 +1,17 @@
 function makeFriendsList(friends) {
-  let body = document.querySelector('body');
   let ul = document.createElement('UL');
+  document.body.append(ul);
+  // Вариант без forEach
 
-  body.append(ul);
+  // let mapFriends = friends.map((friend) => `${friend.firstName} ${friend.lastName}`);
 
-  let mapFriends = friends.map((friend) => `${friend.firstName} ${friend.lastName}`);
+  // for (let item of mapFriends) {
+  //   ul.insertAdjacentHTML('beforeEnd', `<li>${item}</li>`);
+  // }
 
-  for (let item of mapFriends) {
-    ul.insertAdjacentHTML('afterBegin', `<li>${item}</li>`);
-  }
+  friends.forEach(friend => { // Вариант с forEach
+    ul.insertAdjacentHTML('beforeEnd', `<li>${friend.firstName} ${friend.lastName}</li>`);
+  })
+
   return ul
 }
-
