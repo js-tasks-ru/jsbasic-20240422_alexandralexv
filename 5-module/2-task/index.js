@@ -3,11 +3,13 @@ function toggleText() {
   let text = document.getElementById("text");
 
   button.onclick = function () {
-    if (text.hidden) {
-      text.hidden = false;
-    }
-    else {
-      text.hidden = true;
-    }
+    //   if (text.hidden) { // Вариант с text.hidden = true
+    //     text.hidden = false;
+    //   }
+    //   else {
+    //     text.hidden = true;
+    //   }
+    // }
+    text.toggleAttribute("hidden");
   }
 }
