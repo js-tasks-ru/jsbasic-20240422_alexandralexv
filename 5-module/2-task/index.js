@@ -10,6 +10,7 @@ function toggleText() {
     //     text.hidden = true;
     //   }
     // }
-    text.toggleAttribute("hidden");
+    text.hidden = !text.hidden;
+    // text.toggleAttribute("hidden");
   }
 }
